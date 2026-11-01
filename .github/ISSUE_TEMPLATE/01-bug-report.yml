@@ -22,6 +22,7 @@ body:
     attributes:
       label: Какую версию вы используете?
       options:
+        - Вариант пока не указан
         - Установленную через Setup
         - Переносимую portable
         - Не знаю
@@ -32,6 +33,7 @@ body:
     attributes:
       label: Версия Windows
       options:
+        - Windows пока не указана
         - Windows 11 x64
         - Другая версия Windows
         - Не знаю
