@@ -1,0 +1,5 @@
+*.exe
+*.zip
+/data/
+*.sqlite3*
+*.log
