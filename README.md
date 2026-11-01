@@ -9,9 +9,13 @@
 
 ## Скачать
 
-Предварительный выпуск **0.9.0-rc.10** подготовлен для раздела [Releases](https://github.com/Lion-ls36/Li-m/releases).
-Выберите `Li-m-0.9.0-rc.10-Setup.exe` для обычной установки или
-`Li-m-0.9.0-rc.10-portable.zip` для запуска из распакованной папки.
+Предварительный выпуск **0.9.0-rc.10** доступен в [Releases](https://github.com/Lion-ls36/Li-m/releases/tag/v0.9.0-rc.10).
+
+- [Скачать установщик](https://github.com/Lion-ls36/Li-m/releases/download/v0.9.0-rc.10/Li-m-0.9.0-rc.10-Setup.exe)
+- [Скачать портативную версию](https://github.com/Lion-ls36/Li-m/releases/download/v0.9.0-rc.10/Li-m-0.9.0-rc.10-portable.zip)
+- [Контрольные суммы](https://github.com/Lion-ls36/Li-m/releases/download/v0.9.0-rc.10/SHA256SUMS.txt)
+
+Выберите установщик для обычной установки или portable для запуска из распакованной папки.
 Установленный Python не требуется. Распаковывайте portable целиком.
 
 Это кандидат, а не стабильная версия 1.0. Сборки не подписаны сертификатом
