@@ -1,0 +1,87 @@
+name: Результат проверки
+description: Расскажите, как Li-m работает на вашей Windows и оборудовании.
+title: "[Проверка]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Отмечайте только то, что действительно проверили. Непроверенные сценарии
+        не считаются успешными. Звук на устройстве, настоящий сон и экранный диктор
+        проверяются отдельно от программной имитации.
+        Сообщение публичное: не прикладывайте музыку, профиль или личные пути.
+  - type: input
+    id: version
+    attributes:
+      label: Версия Li-m
+      placeholder: Например, 0.9.0-rc.10
+    validations:
+      required: true
+  - type: dropdown
+    id: distribution
+    attributes:
+      label: Вариант плеера
+      options:
+        - Установленный через Setup
+        - Переносимый portable
+        - Оба варианта
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows и условия проверки
+      placeholder: Например, Windows 11 x64; обычная система или чистая установка.
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Как выполнялась проверка?
+      options:
+        - Вручную на реальном компьютере
+        - В виртуальной машине
+        - Программная имитация или автоматический тест
+        - Другое
+    validations:
+      required: true
+  - type: dropdown
+    id: scenarios
+    attributes:
+      label: Какие сценарии проверены?
+      multiple: true
+      options:
+        - Обычное воспроизведение со слышимым звуком
+        - Переключение аудиовыходов
+        - Отключение и повторное подключение USB-аудио
+        - Отключение и повторное подключение Bluetooth-аудио
+        - Настоящий сон Windows и пробуждение
+        - Управление клавиатурой
+        - Работа с экранным диктором
+        - Установка, обновление или удаление
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Результат выбранных проверок
+      options:
+        - Всё проверенное работает
+        - Обнаружена проблема
+        - Проверку не удалось завершить
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: Что именно вы проверили и наблюдали?
+      description: При необходимости укажите модель аудиоустройства, способ подключения или название диктора. Не указывайте серийные номера и личные данные.
+      placeholder: Например, после отключения USB плеер остался на паузе; после подключения и команды Play звук восстановился.
+    validations:
+      required: true
+  - type: textarea
+    id: untested
+    attributes:
+      label: Что осталось непроверенным?
+      placeholder: Например, USB проверен, Bluetooth и сон не проверялись.
+    validations:
+      required: true

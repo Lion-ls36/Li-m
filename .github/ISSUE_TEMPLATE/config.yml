@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Установка и предупреждение «Неизвестный издатель»
+    url: https://github.com/Lion-ls36/Li-m/blob/main/INSTALL.md
+    about: Инструкция для Setup и portable, обновление и контрольные суммы.
+  - name: Руководство Li-m
+    url: https://github.com/Lion-ls36/Li-m/blob/main/GUIDE.ru.md
+    about: Медиатека, папки, плейлисты, эквалайзер и визуализации.
